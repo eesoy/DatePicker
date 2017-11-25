@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Chapter04_DatePicker
 //
-//  Created by 그린아카데미 on 2017. 11. 25..
+//  Created by soyoung on 2017. 11. 25..
 //  Copyright © 2017년 soyoung. All rights reserved.
 //
 
@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblCurrentTime: UILabel!
+    @IBOutlet weak var lblPickerTime: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func changeDatePicker(_ sender: UIDatePicker) {
+    }
+    
 }
 
